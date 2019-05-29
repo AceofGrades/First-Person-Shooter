@@ -809,6 +809,10 @@ PrefabInstance:
       propertyPath: weighting
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1588206422, guid: 976da311f2e02f6428d649049384e7c4, type: 3}
+      propertyPath: maxVelocity
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 976da311f2e02f6428d649049384e7c4, type: 3}
 --- !u!4 &1598718987221724539 stripped
