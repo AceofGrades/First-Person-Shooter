@@ -12,7 +12,7 @@ public class OnTriggerEvent : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // If hitting hit Tag
-        if(other.tag == hitTag || hitTag == "")
+        if(other.gameObject.tag == "Player")
         {
             // Invoke (Run) the event!
             onEnter.Invoke();
